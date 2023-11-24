@@ -4,9 +4,6 @@ const { When, Then, Given }= require('@cucumber/cucumber')
 Then('a proper validation <RESULT> has to be provided to her', function () {
 // Your test goes here ;
 });
-Then('a proper validation <RESULT> has to be provided to her', function () {
-// Your test goes here ;
-});
 When('user adds 1 item {string}', function (str1) {
 //user adds 1 item "CQ0003"
 // Your test goes here ;
@@ -14,6 +11,12 @@ When('user adds 1 item {string}', function (str1) {
 Then('user returns to shopping screen', function () {
 // Your test goes here ;
 });
+// Scenario: Successful shopping
+// Scenario: Successful shopping
+// Scenario: Successful shopping
+// Scenario: Successful shopping
+// Scenario: Successful shopping
+// Scenario: Successful shopping
 // Scenario: Successful shopping
 
 // Scenario: Successful shopping
