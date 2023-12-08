@@ -1,11 +1,14 @@
-Feature: Relevant validation
+Feature: Relevant validation test
 
     Scenario Outline: test real time
         When a Customer provides <TIN> as her TIN number
         Then a proper validation <RESULT> has to be provided to her
 
+        When the user change section
+
         When user adds 1 item "CQ0003"
         Then user returns to shopping screen
+
         When test changes
 
         Examples:
